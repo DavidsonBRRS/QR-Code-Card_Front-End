@@ -1,0 +1,39 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Geneva, Verdana, sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    color: black;
+    max-width: 1440px;
+    
+}
+
+main .cartao-do-qr {
+    gap: 10px;
+    width: 310px;
+    background-color: white;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto 100px auto;
+    border: 1px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+main .qr-code {
+    width: 280px;
+    margin: 14px;
+    border: 1px;
+    border-radius: 10px;
+}
+
+main .titulo{
+    max-width: 260px;
+    font-size: 22px; 
+    text-align: center;
+}
+
+main .texto{
+    max-width: 260px;
+    text-align: center;
+    color: gray;
+}
